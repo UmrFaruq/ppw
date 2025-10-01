@@ -60,7 +60,6 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'CrawPTAFT';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="Crawling PTA &amp; Berita" href="CrawlingPPW.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -181,7 +180,6 @@
         <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="pengantar.html">Pengantar</a></li>
 <li class="toctree-l1"><a class="reference internal" href="crawling.html">Crawling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="CrawlingPPW.html">Crawling PTA &amp; Berita</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Crawling PTA dan Berita &amp; Preprocessing</a></li>
 </ul>
 
@@ -599,9 +597,6 @@ document.write(`
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[9] Teknik Industri - Page 5/143 [--------------------] 3.50%
 </pre></div>
 </div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[9] Teknik Industri - Page 6/143 [--------------------] 4.20%
-</pre></div>
-</div>
 <div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
 <span class="ne">KeyboardInterrupt</span><span class="g g-Whitespace">                         </span>Traceback (most recent call last)
 <span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">7</span><span class="p">],</span> <span class="n">line</span> <span class="mi">1</span>
@@ -816,9 +811,7 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_html">
-  <div id="df-5ff6dc5d-457e-48d7-89f0-42d31b778096" class="colab-df-container">
-    <div>
+<div class="output text_html"><div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
@@ -879,304 +872,39 @@ document.write(`
       <td>...</td>
     </tr>
     <tr>
-      <th>1704</th>
-      <td>1704</td>
+      <th>1649</th>
+      <td>1649</td>
       <td>https://informatika.trunojoyo.ac.id/unit-kegia...</td>
-      <td>https://ukmfteecom.vercel.app/</td>
+      <td>https://tofatek.wordpress.com/</td>
     </tr>
     <tr>
-      <th>1705</th>
-      <td>1705</td>
-      <td>https://informatika.trunojoyo.ac.id/unit-kegia...</td>
-      <td>https://informatika.trunojoyo.ac.id/berita-pro...</td>
-    </tr>
-    <tr>
-      <th>1706</th>
-      <td>1706</td>
+      <th>1650</th>
+      <td>1650</td>
       <td>https://informatika.trunojoyo.ac.id/unit-kegia...</td>
       <td>https://informatika.trunojoyo.ac.id/berita-pro...</td>
     </tr>
     <tr>
-      <th>1707</th>
-      <td>1707</td>
+      <th>1651</th>
+      <td>1651</td>
       <td>https://informatika.trunojoyo.ac.id/unit-kegia...</td>
       <td>https://informatika.trunojoyo.ac.id/berita-pro...</td>
     </tr>
     <tr>
-      <th>1708</th>
-      <td>1708</td>
+      <th>1652</th>
+      <td>1652</td>
+      <td>https://informatika.trunojoyo.ac.id/unit-kegia...</td>
+      <td>https://informatika.trunojoyo.ac.id/berita-pro...</td>
+    </tr>
+    <tr>
+      <th>1653</th>
+      <td>1653</td>
       <td>https://informatika.trunojoyo.ac.id/unit-kegia...</td>
       <td>https://informatika.trunojoyo.ac.id/berita-pro...</td>
     </tr>
   </tbody>
 </table>
-<p>1708 rows × 3 columns</p>
-</div>
-    <div class="colab-df-buttons">
-
-  <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-5ff6dc5d-457e-48d7-89f0-42d31b778096')"
-            title="Convert this dataframe to an interactive table."
-            style="display:none;">
-
-  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
-    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
-  </svg>
-    </button>
-
-  <style>
-    .colab-df-container {
-      display:flex;
-      gap: 12px;
-    }
-
-    .colab-df-convert {
-      background-color: #E8F0FE;
-      border: none;
-      border-radius: 50%;
-      cursor: pointer;
-      display: none;
-      fill: #1967D2;
-      height: 32px;
-      padding: 0 0 0 0;
-      width: 32px;
-    }
-
-    .colab-df-convert:hover {
-      background-color: #E2EBFA;
-      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
-      fill: #174EA6;
-    }
-
-    .colab-df-buttons div {
-      margin-bottom: 4px;
-    }
-
-    [theme=dark] .colab-df-convert {
-      background-color: #3B4455;
-      fill: #D2E3FC;
-    }
-
-    [theme=dark] .colab-df-convert:hover {
-      background-color: #434B5C;
-      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
-      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
-      fill: #FFFFFF;
-    }
-  </style>
-
-    <script>
-      const buttonEl =
-        document.querySelector('#df-5ff6dc5d-457e-48d7-89f0-42d31b778096 button.colab-df-convert');
-      buttonEl.style.display =
-        google.colab.kernel.accessAllowed ? 'block' : 'none';
-
-      async function convertToInteractive(key) {
-        const element = document.querySelector('#df-5ff6dc5d-457e-48d7-89f0-42d31b778096');
-        const dataTable =
-          await google.colab.kernel.invokeFunction('convertToInteractive',
-                                                    [key], {});
-        if (!dataTable) return;
-
-        const docLinkHtml = 'Like what you see? Visit the ' +
-          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
-          + ' to learn more about interactive tables.';
-        element.innerHTML = '';
-        dataTable['output_type'] = 'display_data';
-        await google.colab.output.renderOutput(dataTable, element);
-        const docLink = document.createElement('div');
-        docLink.innerHTML = docLinkHtml;
-        element.appendChild(docLink);
-      }
-    </script>
-  </div>
-
-
-    <div id="df-7d52c392-5e82-4ade-91ae-e4de950cc581">
-      <button class="colab-df-quickchart" onclick="quickchart('df-7d52c392-5e82-4ade-91ae-e4de950cc581')"
-                title="Suggest charts"
-                style="display:none;">
-
-<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
-     width="24px">
-    <g>
-        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
-    </g>
-</svg>
-      </button>
-
-<style>
-  .colab-df-quickchart {
-      --bg-color: #E8F0FE;
-      --fill-color: #1967D2;
-      --hover-bg-color: #E2EBFA;
-      --hover-fill-color: #174EA6;
-      --disabled-fill-color: #AAA;
-      --disabled-bg-color: #DDD;
-  }
-
-  [theme=dark] .colab-df-quickchart {
-      --bg-color: #3B4455;
-      --fill-color: #D2E3FC;
-      --hover-bg-color: #434B5C;
-      --hover-fill-color: #FFFFFF;
-      --disabled-bg-color: #3B4455;
-      --disabled-fill-color: #666;
-  }
-
-  .colab-df-quickchart {
-    background-color: var(--bg-color);
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-    display: none;
-    fill: var(--fill-color);
-    height: 32px;
-    padding: 0;
-    width: 32px;
-  }
-
-  .colab-df-quickchart:hover {
-    background-color: var(--hover-bg-color);
-    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
-    fill: var(--button-hover-fill-color);
-  }
-
-  .colab-df-quickchart-complete:disabled,
-  .colab-df-quickchart-complete:disabled:hover {
-    background-color: var(--disabled-bg-color);
-    fill: var(--disabled-fill-color);
-    box-shadow: none;
-  }
-
-  .colab-df-spinner {
-    border: 2px solid var(--fill-color);
-    border-color: transparent;
-    border-bottom-color: var(--fill-color);
-    animation:
-      spin 1s steps(1) infinite;
-  }
-
-  @keyframes spin {
-    0% {
-      border-color: transparent;
-      border-bottom-color: var(--fill-color);
-      border-left-color: var(--fill-color);
-    }
-    20% {
-      border-color: transparent;
-      border-left-color: var(--fill-color);
-      border-top-color: var(--fill-color);
-    }
-    30% {
-      border-color: transparent;
-      border-left-color: var(--fill-color);
-      border-top-color: var(--fill-color);
-      border-right-color: var(--fill-color);
-    }
-    40% {
-      border-color: transparent;
-      border-right-color: var(--fill-color);
-      border-top-color: var(--fill-color);
-    }
-    60% {
-      border-color: transparent;
-      border-right-color: var(--fill-color);
-    }
-    80% {
-      border-color: transparent;
-      border-right-color: var(--fill-color);
-      border-bottom-color: var(--fill-color);
-    }
-    90% {
-      border-color: transparent;
-      border-bottom-color: var(--fill-color);
-    }
-  }
-</style>
-
-      <script>
-        async function quickchart(key) {
-          const quickchartButtonEl =
-            document.querySelector('#' + key + ' button');
-          quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
-          quickchartButtonEl.classList.add('colab-df-spinner');
-          try {
-            const charts = await google.colab.kernel.invokeFunction(
-                'suggestCharts', [key], {});
-          } catch (error) {
-            console.error('Error during call to suggestCharts:', error);
-          }
-          quickchartButtonEl.classList.remove('colab-df-spinner');
-          quickchartButtonEl.classList.add('colab-df-quickchart-complete');
-        }
-        (() => {
-          let quickchartButtonEl =
-            document.querySelector('#df-7d52c392-5e82-4ade-91ae-e4de950cc581 button');
-          quickchartButtonEl.style.display =
-            google.colab.kernel.accessAllowed ? 'block' : 'none';
-        })();
-      </script>
-    </div>
-
-  <div id="id_8aba680a-3c72-45d9-b312-b4427aeaed86">
-    <style>
-      .colab-df-generate {
-        background-color: #E8F0FE;
-        border: none;
-        border-radius: 50%;
-        cursor: pointer;
-        display: none;
-        fill: #1967D2;
-        height: 32px;
-        padding: 0 0 0 0;
-        width: 32px;
-      }
-
-      .colab-df-generate:hover {
-        background-color: #E2EBFA;
-        box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
-        fill: #174EA6;
-      }
-
-      [theme=dark] .colab-df-generate {
-        background-color: #3B4455;
-        fill: #D2E3FC;
-      }
-
-      [theme=dark] .colab-df-generate:hover {
-        background-color: #434B5C;
-        box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
-        filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
-        fill: #FFFFFF;
-      }
-    </style>
-    <button class="colab-df-generate" onclick="generateWithVariable('df_links')"
-            title="Generate code using this dataframe."
-            style="display:none;">
-
-  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
-       width="24px">
-    <path d="M7,19H8.4L18.45,9,17,7.55,7,17.6ZM5,21V16.75L18.45,3.32a2,2,0,0,1,2.83,0l1.4,1.43a1.91,1.91,0,0,1,.58,1.4,1.91,1.91,0,0,1-.58,1.4L9.25,21ZM18.45,9,17,7.55Zm-12,3A5.31,5.31,0,0,0,4.9,8.1,5.31,5.31,0,0,0,1,6.5,5.31,5.31,0,0,0,4.9,4.9,5.31,5.31,0,0,0,6.5,1,5.31,5.31,0,0,0,8.1,4.9,5.31,5.31,0,0,0,12,6.5,5.46,5.46,0,0,0,6.5,12Z"/>
-  </svg>
-    </button>
-    <script>
-      (() => {
-      const buttonEl =
-        document.querySelector('#id_8aba680a-3c72-45d9-b312-b4427aeaed86 button.colab-df-generate');
-      buttonEl.style.display =
-        google.colab.kernel.accessAllowed ? 'block' : 'none';
-
-      buttonEl.onclick = () => {
-        google.colab.notebook.generateWithVariable('df_links');
-      }
-      })();
-    </script>
-  </div>
-
-    </div>
-  </div>
-</div></div>
+<p>1653 rows × 3 columns</p>
+</div></div></div>
 </div>
 </section>
 <section id="crawling-berita">
@@ -1304,13 +1032,11 @@ olahraga - Page 5/5 [███████████████████�
 
 
 ✅ Seluruh data berhasil dikumpulkan!
-📊 Total entri: 700
-⏱️ Waktu eksekusi: 0 jam 11 menit 49 detik
+📊 Total entri: 100
+⏱️ Waktu eksekusi: 0 jam 0 menit 54 detik
 </pre></div>
 </div>
-<div class="output text_html">
-  <div id="df-6f603287-ac22-4ae7-86b7-1a219ca6784b" class="colab-df-container">
-    <div>
+<div class="output text_html"><div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
@@ -1337,37 +1063,37 @@ olahraga - Page 5/5 [███████████████████�
   <tbody>
     <tr>
       <th>0</th>
-      <td>2070813</td>
-      <td>RUU Perampasan Aset Diupayakan Tak Cuma Akomod...</td>
-      <td>KETUA Badan Legislasi DPR Bob Hasan mengatakan...</td>
+      <td>2074547</td>
+      <td>Mayoritas Dapur MBG di Bandung Masih Proses Se...</td>
+      <td>KEPALA Dinas Kesehatan Kota Bandung Sony Adam ...</td>
       <td>politik</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>2070810</td>
-      <td>Debat Sengit Komisi II DPR dan Baleg Berebut B...</td>
-      <td>SUASANA rapat koordinasi antara pimpinan komis...</td>
+      <td>2074538</td>
+      <td>Kelakar Prabowo ke Dedi Mulyadi: Kalau Berengs...</td>
+      <td>PRESIDENPrabowoSubianto sempat berkelakar kepa...</td>
       <td>politik</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>2070792</td>
-      <td>Sengketa Pilkada Ulang Barito Utara dan Papua ...</td>
-      <td>MAHKAMAH Konstitusi (MK) menyelesaikan Permoho...</td>
+      <td>2074525</td>
+      <td>Bangunan Pesantren Al Khoziny Sidoarjo Ambruk,...</td>
+      <td>BANGUNAN Asrama Putra PondokPesantrenAl Khozin...</td>
       <td>politik</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>2070783</td>
-      <td>Respons Pemerintah dan Tentara soal MK Tolak G...</td>
-      <td>WAKIL Menteri Hukum Eddy Hiariej menghormati p...</td>
+      <td>2074513</td>
+      <td>Politikus NasDem Singgung Perombakan Pejabat BGN</td>
+      <td>ANGGOTA Komisi IX Dewan Perwakilan Rakyat Irma...</td>
       <td>politik</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>2070782</td>
-      <td>Rangkap Jabatan Menpora dan Ketum PSSI, Erick ...</td>
-      <td>MENTERI Pemuda dan Olahraga Erick Thohir belum...</td>
+      <td>2074503</td>
+      <td>Cerita Prabowo Disindir Trump soal Pidatonya d...</td>
+      <td>PRESIDENPrabowoSubianto mengenang momen saat i...</td>
       <td>politik</td>
     </tr>
     <tr>
@@ -1378,254 +1104,44 @@ olahraga - Page 5/5 [███████████████████�
       <td>...</td>
     </tr>
     <tr>
-      <th>695</th>
-      <td>2065814</td>
-      <td>Alasan Persib Bandung Pinjamkan Banyak Pemain ...</td>
-      <td>KLUBPersib Bandungmeminjamkan sejumlah pemainn...</td>
-      <td>olahraga</td>
+      <th>95</th>
+      <td>2073930</td>
+      <td>Arwani Tegaskan Tidak Ada Cawe-cawe dalam Mukt...</td>
+      <td></td>
+      <td>politik</td>
     </tr>
     <tr>
-      <th>696</th>
-      <td>2065789</td>
-      <td>Jesita Putri Miantoro Mundur dari PBSI karena ...</td>
-      <td>ATLETbulu tangkisspesialis ganda putri Indones...</td>
-      <td>olahraga</td>
+      <th>96</th>
+      <td>2073928</td>
+      <td>Sekjen PPP: Muktamar X Bakal Bahas Upaya Perba...</td>
+      <td></td>
+      <td>politik</td>
     </tr>
     <tr>
-      <th>697</th>
-      <td>2065770</td>
-      <td>Jannik Sinner vs Lorenzo Musetti, Duel Sesama ...</td>
-      <td>PETENISJannik Sinnerlolos ke perempat final US...</td>
-      <td>olahraga</td>
+      <th>97</th>
+      <td>2073926</td>
+      <td>Prabowo akan Panggil Kepala BGN Bahas Keracuna...</td>
+      <td></td>
+      <td>politik</td>
     </tr>
     <tr>
-      <th>698</th>
-      <td>2065744</td>
-      <td>Kata Iga Swiatek Usai Mulus ke Perempat Final ...</td>
-      <td>PETENISIga Swiatekkembali ke perempat final US...</td>
-      <td>olahraga</td>
+      <th>98</th>
+      <td>2073921</td>
+      <td>Kemenag Luncurkan Modul Kesehatan Reproduksi R...</td>
+      <td></td>
+      <td>politik</td>
     </tr>
     <tr>
-      <th>699</th>
-      <td>2065632</td>
-      <td>Bagaimana Rapor 12 Pemain Indonesia di Kejuara...</td>
-      <td>Kejuaraan Dunia BWF 2025telah selesai digelar ...</td>
-      <td>olahraga</td>
+      <th>99</th>
+      <td>2073838</td>
+      <td>Buat Apa Polisi Menyita Buku sebagai Barang Bu...</td>
+      <td></td>
+      <td>politik</td>
     </tr>
   </tbody>
 </table>
-<p>700 rows × 4 columns</p>
-</div>
-    <div class="colab-df-buttons">
-
-  <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-6f603287-ac22-4ae7-86b7-1a219ca6784b')"
-            title="Convert this dataframe to an interactive table."
-            style="display:none;">
-
-  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
-    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
-  </svg>
-    </button>
-
-  <style>
-    .colab-df-container {
-      display:flex;
-      gap: 12px;
-    }
-
-    .colab-df-convert {
-      background-color: #E8F0FE;
-      border: none;
-      border-radius: 50%;
-      cursor: pointer;
-      display: none;
-      fill: #1967D2;
-      height: 32px;
-      padding: 0 0 0 0;
-      width: 32px;
-    }
-
-    .colab-df-convert:hover {
-      background-color: #E2EBFA;
-      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
-      fill: #174EA6;
-    }
-
-    .colab-df-buttons div {
-      margin-bottom: 4px;
-    }
-
-    [theme=dark] .colab-df-convert {
-      background-color: #3B4455;
-      fill: #D2E3FC;
-    }
-
-    [theme=dark] .colab-df-convert:hover {
-      background-color: #434B5C;
-      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
-      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
-      fill: #FFFFFF;
-    }
-  </style>
-
-    <script>
-      const buttonEl =
-        document.querySelector('#df-6f603287-ac22-4ae7-86b7-1a219ca6784b button.colab-df-convert');
-      buttonEl.style.display =
-        google.colab.kernel.accessAllowed ? 'block' : 'none';
-
-      async function convertToInteractive(key) {
-        const element = document.querySelector('#df-6f603287-ac22-4ae7-86b7-1a219ca6784b');
-        const dataTable =
-          await google.colab.kernel.invokeFunction('convertToInteractive',
-                                                    [key], {});
-        if (!dataTable) return;
-
-        const docLinkHtml = 'Like what you see? Visit the ' +
-          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
-          + ' to learn more about interactive tables.';
-        element.innerHTML = '';
-        dataTable['output_type'] = 'display_data';
-        await google.colab.output.renderOutput(dataTable, element);
-        const docLink = document.createElement('div');
-        docLink.innerHTML = docLinkHtml;
-        element.appendChild(docLink);
-      }
-    </script>
-  </div>
-
-
-    <div id="df-648b5014-37ef-40c4-96d2-8c9912f27645">
-      <button class="colab-df-quickchart" onclick="quickchart('df-648b5014-37ef-40c4-96d2-8c9912f27645')"
-                title="Suggest charts"
-                style="display:none;">
-
-<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
-     width="24px">
-    <g>
-        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
-    </g>
-</svg>
-      </button>
-
-<style>
-  .colab-df-quickchart {
-      --bg-color: #E8F0FE;
-      --fill-color: #1967D2;
-      --hover-bg-color: #E2EBFA;
-      --hover-fill-color: #174EA6;
-      --disabled-fill-color: #AAA;
-      --disabled-bg-color: #DDD;
-  }
-
-  [theme=dark] .colab-df-quickchart {
-      --bg-color: #3B4455;
-      --fill-color: #D2E3FC;
-      --hover-bg-color: #434B5C;
-      --hover-fill-color: #FFFFFF;
-      --disabled-bg-color: #3B4455;
-      --disabled-fill-color: #666;
-  }
-
-  .colab-df-quickchart {
-    background-color: var(--bg-color);
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-    display: none;
-    fill: var(--fill-color);
-    height: 32px;
-    padding: 0;
-    width: 32px;
-  }
-
-  .colab-df-quickchart:hover {
-    background-color: var(--hover-bg-color);
-    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
-    fill: var(--button-hover-fill-color);
-  }
-
-  .colab-df-quickchart-complete:disabled,
-  .colab-df-quickchart-complete:disabled:hover {
-    background-color: var(--disabled-bg-color);
-    fill: var(--disabled-fill-color);
-    box-shadow: none;
-  }
-
-  .colab-df-spinner {
-    border: 2px solid var(--fill-color);
-    border-color: transparent;
-    border-bottom-color: var(--fill-color);
-    animation:
-      spin 1s steps(1) infinite;
-  }
-
-  @keyframes spin {
-    0% {
-      border-color: transparent;
-      border-bottom-color: var(--fill-color);
-      border-left-color: var(--fill-color);
-    }
-    20% {
-      border-color: transparent;
-      border-left-color: var(--fill-color);
-      border-top-color: var(--fill-color);
-    }
-    30% {
-      border-color: transparent;
-      border-left-color: var(--fill-color);
-      border-top-color: var(--fill-color);
-      border-right-color: var(--fill-color);
-    }
-    40% {
-      border-color: transparent;
-      border-right-color: var(--fill-color);
-      border-top-color: var(--fill-color);
-    }
-    60% {
-      border-color: transparent;
-      border-right-color: var(--fill-color);
-    }
-    80% {
-      border-color: transparent;
-      border-right-color: var(--fill-color);
-      border-bottom-color: var(--fill-color);
-    }
-    90% {
-      border-color: transparent;
-      border-bottom-color: var(--fill-color);
-    }
-  }
-</style>
-
-      <script>
-        async function quickchart(key) {
-          const quickchartButtonEl =
-            document.querySelector('#' + key + ' button');
-          quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
-          quickchartButtonEl.classList.add('colab-df-spinner');
-          try {
-            const charts = await google.colab.kernel.invokeFunction(
-                'suggestCharts', [key], {});
-          } catch (error) {
-            console.error('Error during call to suggestCharts:', error);
-          }
-          quickchartButtonEl.classList.remove('colab-df-spinner');
-          quickchartButtonEl.classList.add('colab-df-quickchart-complete');
-        }
-        (() => {
-          let quickchartButtonEl =
-            document.querySelector('#df-648b5014-37ef-40c4-96d2-8c9912f27645 button');
-          quickchartButtonEl.style.display =
-            google.colab.kernel.accessAllowed ? 'block' : 'none';
-        })();
-      </script>
-    </div>
-
-    </div>
-  </div>
-</div></div>
+<p>100 rows × 4 columns</p>
+</div></div></div>
 </div>
 </section>
 <section id="page-link-keluar-berita">
@@ -1689,6 +1205,9 @@ olahraga - Page 5/5 [███████████████████�
 </div>
 </div>
 <div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>politik - Page 1/5 [████----------------] 20.00%
+</pre></div>
+</div>
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>politik - Page 5/5 [████████████████████] 100.00%
 
 hukum - Page 5/5 [████████████████████] 100.00%
@@ -1705,13 +1224,11 @@ olahraga - Page 5/5 [███████████████████�
 
 
 ✅ Seluruh link berhasil dikumpulkan!
-📊 Total entri: 700
-⏱️ Waktu eksekusi: 0 jam 0 menit 35 detik
+📊 Total entri: 0
+⏱️ Waktu eksekusi: 0 jam 0 menit 1 detik
 </pre></div>
 </div>
-<div class="output text_html">
-  <div id="df-e339229c-ab29-460a-9b0d-3d4d0a315b29" class="colab-df-container">
-    <div>
+<div class="output text_html"><div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
@@ -1735,286 +1252,9 @@ olahraga - Page 5/5 [███████████████████�
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <th>0</th>
-      <td>2070813</td>
-      <td>https://www.tempo.co/indeks?page=1&amp;category=ru...</td>
-      <td>https://www.tempo.co/politik/ruu-perampasan-as...</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2070810</td>
-      <td>https://www.tempo.co/indeks?page=1&amp;category=ru...</td>
-      <td>https://www.tempo.co/politik/debat-sengit-komi...</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>2070792</td>
-      <td>https://www.tempo.co/indeks?page=1&amp;category=ru...</td>
-      <td>https://www.tempo.co/politik/sengketa-pilkada-...</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>2070783</td>
-      <td>https://www.tempo.co/indeks?page=1&amp;category=ru...</td>
-      <td>https://www.tempo.co/politik/respons-pemerinta...</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>2070782</td>
-      <td>https://www.tempo.co/indeks?page=1&amp;category=ru...</td>
-      <td>https://www.tempo.co/politik/rangkap-jabatan-m...</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>695</th>
-      <td>2065814</td>
-      <td>https://www.tempo.co/indeks?page=5&amp;category=ru...</td>
-      <td>https://www.tempo.co/olahraga/alasan-persib-ba...</td>
-    </tr>
-    <tr>
-      <th>696</th>
-      <td>2065789</td>
-      <td>https://www.tempo.co/indeks?page=5&amp;category=ru...</td>
-      <td>https://www.tempo.co/olahraga/jesita-putri-mia...</td>
-    </tr>
-    <tr>
-      <th>697</th>
-      <td>2065770</td>
-      <td>https://www.tempo.co/indeks?page=5&amp;category=ru...</td>
-      <td>https://www.tempo.co/olahraga/jannik-sinner-vs...</td>
-    </tr>
-    <tr>
-      <th>698</th>
-      <td>2065744</td>
-      <td>https://www.tempo.co/indeks?page=5&amp;category=ru...</td>
-      <td>https://www.tempo.co/olahraga/kata-iga-swiatek...</td>
-    </tr>
-    <tr>
-      <th>699</th>
-      <td>2065632</td>
-      <td>https://www.tempo.co/indeks?page=5&amp;category=ru...</td>
-      <td>https://www.tempo.co/olahraga/bagaimana-rapor-...</td>
-    </tr>
   </tbody>
 </table>
-<p>700 rows × 3 columns</p>
-</div>
-    <div class="colab-df-buttons">
-
-  <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-e339229c-ab29-460a-9b0d-3d4d0a315b29')"
-            title="Convert this dataframe to an interactive table."
-            style="display:none;">
-
-  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
-    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
-  </svg>
-    </button>
-
-  <style>
-    .colab-df-container {
-      display:flex;
-      gap: 12px;
-    }
-
-    .colab-df-convert {
-      background-color: #E8F0FE;
-      border: none;
-      border-radius: 50%;
-      cursor: pointer;
-      display: none;
-      fill: #1967D2;
-      height: 32px;
-      padding: 0 0 0 0;
-      width: 32px;
-    }
-
-    .colab-df-convert:hover {
-      background-color: #E2EBFA;
-      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
-      fill: #174EA6;
-    }
-
-    .colab-df-buttons div {
-      margin-bottom: 4px;
-    }
-
-    [theme=dark] .colab-df-convert {
-      background-color: #3B4455;
-      fill: #D2E3FC;
-    }
-
-    [theme=dark] .colab-df-convert:hover {
-      background-color: #434B5C;
-      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
-      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
-      fill: #FFFFFF;
-    }
-  </style>
-
-    <script>
-      const buttonEl =
-        document.querySelector('#df-e339229c-ab29-460a-9b0d-3d4d0a315b29 button.colab-df-convert');
-      buttonEl.style.display =
-        google.colab.kernel.accessAllowed ? 'block' : 'none';
-
-      async function convertToInteractive(key) {
-        const element = document.querySelector('#df-e339229c-ab29-460a-9b0d-3d4d0a315b29');
-        const dataTable =
-          await google.colab.kernel.invokeFunction('convertToInteractive',
-                                                    [key], {});
-        if (!dataTable) return;
-
-        const docLinkHtml = 'Like what you see? Visit the ' +
-          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
-          + ' to learn more about interactive tables.';
-        element.innerHTML = '';
-        dataTable['output_type'] = 'display_data';
-        await google.colab.output.renderOutput(dataTable, element);
-        const docLink = document.createElement('div');
-        docLink.innerHTML = docLinkHtml;
-        element.appendChild(docLink);
-      }
-    </script>
-  </div>
-
-
-    <div id="df-277a93e6-9d21-4c0c-9352-1fd5f52a989e">
-      <button class="colab-df-quickchart" onclick="quickchart('df-277a93e6-9d21-4c0c-9352-1fd5f52a989e')"
-                title="Suggest charts"
-                style="display:none;">
-
-<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
-     width="24px">
-    <g>
-        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
-    </g>
-</svg>
-      </button>
-
-<style>
-  .colab-df-quickchart {
-      --bg-color: #E8F0FE;
-      --fill-color: #1967D2;
-      --hover-bg-color: #E2EBFA;
-      --hover-fill-color: #174EA6;
-      --disabled-fill-color: #AAA;
-      --disabled-bg-color: #DDD;
-  }
-
-  [theme=dark] .colab-df-quickchart {
-      --bg-color: #3B4455;
-      --fill-color: #D2E3FC;
-      --hover-bg-color: #434B5C;
-      --hover-fill-color: #FFFFFF;
-      --disabled-bg-color: #3B4455;
-      --disabled-fill-color: #666;
-  }
-
-  .colab-df-quickchart {
-    background-color: var(--bg-color);
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-    display: none;
-    fill: var(--fill-color);
-    height: 32px;
-    padding: 0;
-    width: 32px;
-  }
-
-  .colab-df-quickchart:hover {
-    background-color: var(--hover-bg-color);
-    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
-    fill: var(--button-hover-fill-color);
-  }
-
-  .colab-df-quickchart-complete:disabled,
-  .colab-df-quickchart-complete:disabled:hover {
-    background-color: var(--disabled-bg-color);
-    fill: var(--disabled-fill-color);
-    box-shadow: none;
-  }
-
-  .colab-df-spinner {
-    border: 2px solid var(--fill-color);
-    border-color: transparent;
-    border-bottom-color: var(--fill-color);
-    animation:
-      spin 1s steps(1) infinite;
-  }
-
-  @keyframes spin {
-    0% {
-      border-color: transparent;
-      border-bottom-color: var(--fill-color);
-      border-left-color: var(--fill-color);
-    }
-    20% {
-      border-color: transparent;
-      border-left-color: var(--fill-color);
-      border-top-color: var(--fill-color);
-    }
-    30% {
-      border-color: transparent;
-      border-left-color: var(--fill-color);
-      border-top-color: var(--fill-color);
-      border-right-color: var(--fill-color);
-    }
-    40% {
-      border-color: transparent;
-      border-right-color: var(--fill-color);
-      border-top-color: var(--fill-color);
-    }
-    60% {
-      border-color: transparent;
-      border-right-color: var(--fill-color);
-    }
-    80% {
-      border-color: transparent;
-      border-right-color: var(--fill-color);
-      border-bottom-color: var(--fill-color);
-    }
-    90% {
-      border-color: transparent;
-      border-bottom-color: var(--fill-color);
-    }
-  }
-</style>
-
-      <script>
-        async function quickchart(key) {
-          const quickchartButtonEl =
-            document.querySelector('#' + key + ' button');
-          quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
-          quickchartButtonEl.classList.add('colab-df-spinner');
-          try {
-            const charts = await google.colab.kernel.invokeFunction(
-                'suggestCharts', [key], {});
-          } catch (error) {
-            console.error('Error during call to suggestCharts:', error);
-          }
-          quickchartButtonEl.classList.remove('colab-df-spinner');
-          quickchartButtonEl.classList.add('colab-df-quickchart-complete');
-        }
-        (() => {
-          let quickchartButtonEl =
-            document.querySelector('#df-277a93e6-9d21-4c0c-9352-1fd5f52a989e button');
-          quickchartButtonEl.style.display =
-            google.colab.kernel.accessAllowed ? 'block' : 'none';
-        })();
-      </script>
-    </div>
-
-    </div>
-  </div>
-</div></div>
+</div></div></div>
 </div>
 </section>
 </section>
@@ -2030,75 +1270,147 @@ olahraga - Page 5/5 [███████████████████�
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: pandas in /usr/local/lib/python3.12/dist-packages (2.2.2)
-Requirement already satisfied: nltk in /usr/local/lib/python3.12/dist-packages (3.9.1)
-Requirement already satisfied: spacy in /usr/local/lib/python3.12/dist-packages (3.8.7)
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: pandas in /home/codespace/.local/lib/python3.12/site-packages (2.3.1)
+Collecting nltk
+  Downloading nltk-3.9.1-py3-none-any.whl.metadata (2.9 kB)
+Collecting spacy
+  Downloading spacy-3.8.7-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (27 kB)
 Collecting Sastrawi
   Downloading Sastrawi-1.0.1-py2.py3-none-any.whl.metadata (909 bytes)
 Collecting pyspellchecker
   Downloading pyspellchecker-0.8.3-py3-none-any.whl.metadata (9.5 kB)
-Requirement already satisfied: numpy&gt;=1.26.0 in /usr/local/lib/python3.12/dist-packages (from pandas) (2.0.2)
-Requirement already satisfied: python-dateutil&gt;=2.8.2 in /usr/local/lib/python3.12/dist-packages (from pandas) (2.9.0.post0)
-Requirement already satisfied: pytz&gt;=2020.1 in /usr/local/lib/python3.12/dist-packages (from pandas) (2025.2)
-Requirement already satisfied: tzdata&gt;=2022.7 in /usr/local/lib/python3.12/dist-packages (from pandas) (2025.2)
-Requirement already satisfied: click in /usr/local/lib/python3.12/dist-packages (from nltk) (8.2.1)
-Requirement already satisfied: joblib in /usr/local/lib/python3.12/dist-packages (from nltk) (1.5.2)
-Requirement already satisfied: regex&gt;=2021.8.3 in /usr/local/lib/python3.12/dist-packages (from nltk) (2024.11.6)
-Requirement already satisfied: tqdm in /usr/local/lib/python3.12/dist-packages (from nltk) (4.67.1)
-Requirement already satisfied: spacy-legacy&lt;3.1.0,&gt;=3.0.11 in /usr/local/lib/python3.12/dist-packages (from spacy) (3.0.12)
-Requirement already satisfied: spacy-loggers&lt;2.0.0,&gt;=1.0.0 in /usr/local/lib/python3.12/dist-packages (from spacy) (1.0.5)
-Requirement already satisfied: murmurhash&lt;1.1.0,&gt;=0.28.0 in /usr/local/lib/python3.12/dist-packages (from spacy) (1.0.13)
-Requirement already satisfied: cymem&lt;2.1.0,&gt;=2.0.2 in /usr/local/lib/python3.12/dist-packages (from spacy) (2.0.11)
-Requirement already satisfied: preshed&lt;3.1.0,&gt;=3.0.2 in /usr/local/lib/python3.12/dist-packages (from spacy) (3.0.10)
-Requirement already satisfied: thinc&lt;8.4.0,&gt;=8.3.4 in /usr/local/lib/python3.12/dist-packages (from spacy) (8.3.6)
-Requirement already satisfied: wasabi&lt;1.2.0,&gt;=0.9.1 in /usr/local/lib/python3.12/dist-packages (from spacy) (1.1.3)
-Requirement already satisfied: srsly&lt;3.0.0,&gt;=2.4.3 in /usr/local/lib/python3.12/dist-packages (from spacy) (2.5.1)
-Requirement already satisfied: catalogue&lt;2.1.0,&gt;=2.0.6 in /usr/local/lib/python3.12/dist-packages (from spacy) (2.0.10)
-Requirement already satisfied: weasel&lt;0.5.0,&gt;=0.1.0 in /usr/local/lib/python3.12/dist-packages (from spacy) (0.4.1)
-Requirement already satisfied: typer&lt;1.0.0,&gt;=0.3.0 in /usr/local/lib/python3.12/dist-packages (from spacy) (0.17.4)
-Requirement already satisfied: requests&lt;3.0.0,&gt;=2.13.0 in /usr/local/lib/python3.12/dist-packages (from spacy) (2.32.4)
-Requirement already satisfied: pydantic!=1.8,!=1.8.1,&lt;3.0.0,&gt;=1.7.4 in /usr/local/lib/python3.12/dist-packages (from spacy) (2.11.7)
-Requirement already satisfied: jinja2 in /usr/local/lib/python3.12/dist-packages (from spacy) (3.1.6)
-Requirement already satisfied: setuptools in /usr/local/lib/python3.12/dist-packages (from spacy) (75.2.0)
-Requirement already satisfied: packaging&gt;=20.0 in /usr/local/lib/python3.12/dist-packages (from spacy) (25.0)
-Requirement already satisfied: langcodes&lt;4.0.0,&gt;=3.2.0 in /usr/local/lib/python3.12/dist-packages (from spacy) (3.5.0)
-Requirement already satisfied: language-data&gt;=1.2 in /usr/local/lib/python3.12/dist-packages (from langcodes&lt;4.0.0,&gt;=3.2.0-&gt;spacy) (1.3.0)
-Requirement already satisfied: annotated-types&gt;=0.6.0 in /usr/local/lib/python3.12/dist-packages (from pydantic!=1.8,!=1.8.1,&lt;3.0.0,&gt;=1.7.4-&gt;spacy) (0.7.0)
-Requirement already satisfied: pydantic-core==2.33.2 in /usr/local/lib/python3.12/dist-packages (from pydantic!=1.8,!=1.8.1,&lt;3.0.0,&gt;=1.7.4-&gt;spacy) (2.33.2)
-Requirement already satisfied: typing-extensions&gt;=4.12.2 in /usr/local/lib/python3.12/dist-packages (from pydantic!=1.8,!=1.8.1,&lt;3.0.0,&gt;=1.7.4-&gt;spacy) (4.15.0)
-Requirement already satisfied: typing-inspection&gt;=0.4.0 in /usr/local/lib/python3.12/dist-packages (from pydantic!=1.8,!=1.8.1,&lt;3.0.0,&gt;=1.7.4-&gt;spacy) (0.4.1)
-Requirement already satisfied: six&gt;=1.5 in /usr/local/lib/python3.12/dist-packages (from python-dateutil&gt;=2.8.2-&gt;pandas) (1.17.0)
-Requirement already satisfied: charset_normalizer&lt;4,&gt;=2 in /usr/local/lib/python3.12/dist-packages (from requests&lt;3.0.0,&gt;=2.13.0-&gt;spacy) (3.4.3)
-Requirement already satisfied: idna&lt;4,&gt;=2.5 in /usr/local/lib/python3.12/dist-packages (from requests&lt;3.0.0,&gt;=2.13.0-&gt;spacy) (3.10)
-Requirement already satisfied: urllib3&lt;3,&gt;=1.21.1 in /usr/local/lib/python3.12/dist-packages (from requests&lt;3.0.0,&gt;=2.13.0-&gt;spacy) (2.5.0)
-Requirement already satisfied: certifi&gt;=2017.4.17 in /usr/local/lib/python3.12/dist-packages (from requests&lt;3.0.0,&gt;=2.13.0-&gt;spacy) (2025.8.3)
-Requirement already satisfied: blis&lt;1.4.0,&gt;=1.3.0 in /usr/local/lib/python3.12/dist-packages (from thinc&lt;8.4.0,&gt;=8.3.4-&gt;spacy) (1.3.0)
-Requirement already satisfied: confection&lt;1.0.0,&gt;=0.0.1 in /usr/local/lib/python3.12/dist-packages (from thinc&lt;8.4.0,&gt;=8.3.4-&gt;spacy) (0.1.5)
-Requirement already satisfied: shellingham&gt;=1.3.0 in /usr/local/lib/python3.12/dist-packages (from typer&lt;1.0.0,&gt;=0.3.0-&gt;spacy) (1.5.4)
-Requirement already satisfied: rich&gt;=10.11.0 in /usr/local/lib/python3.12/dist-packages (from typer&lt;1.0.0,&gt;=0.3.0-&gt;spacy) (13.9.4)
-Requirement already satisfied: cloudpathlib&lt;1.0.0,&gt;=0.7.0 in /usr/local/lib/python3.12/dist-packages (from weasel&lt;0.5.0,&gt;=0.1.0-&gt;spacy) (0.22.0)
-Requirement already satisfied: smart-open&lt;8.0.0,&gt;=5.2.1 in /usr/local/lib/python3.12/dist-packages (from weasel&lt;0.5.0,&gt;=0.1.0-&gt;spacy) (7.3.1)
-Requirement already satisfied: MarkupSafe&gt;=2.0 in /usr/local/lib/python3.12/dist-packages (from jinja2-&gt;spacy) (3.0.2)
-Requirement already satisfied: marisa-trie&gt;=1.1.0 in /usr/local/lib/python3.12/dist-packages (from language-data&gt;=1.2-&gt;langcodes&lt;4.0.0,&gt;=3.2.0-&gt;spacy) (1.3.1)
-Requirement already satisfied: markdown-it-py&gt;=2.2.0 in /usr/local/lib/python3.12/dist-packages (from rich&gt;=10.11.0-&gt;typer&lt;1.0.0,&gt;=0.3.0-&gt;spacy) (4.0.0)
-Requirement already satisfied: pygments&lt;3.0.0,&gt;=2.13.0 in /usr/local/lib/python3.12/dist-packages (from rich&gt;=10.11.0-&gt;typer&lt;1.0.0,&gt;=0.3.0-&gt;spacy) (2.19.2)
-Requirement already satisfied: wrapt in /usr/local/lib/python3.12/dist-packages (from smart-open&lt;8.0.0,&gt;=5.2.1-&gt;weasel&lt;0.5.0,&gt;=0.1.0-&gt;spacy) (1.17.3)
-Requirement already satisfied: mdurl~=0.1 in /usr/local/lib/python3.12/dist-packages (from markdown-it-py&gt;=2.2.0-&gt;rich&gt;=10.11.0-&gt;typer&lt;1.0.0,&gt;=0.3.0-&gt;spacy) (0.1.2)
+Requirement already satisfied: numpy&gt;=1.26.0 in /home/codespace/.local/lib/python3.12/site-packages (from pandas) (2.3.1)
+Requirement already satisfied: python-dateutil&gt;=2.8.2 in /home/codespace/.local/lib/python3.12/site-packages (from pandas) (2.9.0.post0)
+Requirement already satisfied: pytz&gt;=2020.1 in /home/codespace/.local/lib/python3.12/site-packages (from pandas) (2025.2)
+Requirement already satisfied: tzdata&gt;=2022.7 in /home/codespace/.local/lib/python3.12/site-packages (from pandas) (2025.2)
+Requirement already satisfied: click in /usr/local/python/3.12.1/lib/python3.12/site-packages (from nltk) (8.2.1)
+Requirement already satisfied: joblib in /home/codespace/.local/lib/python3.12/site-packages (from nltk) (1.5.1)
+Collecting regex&gt;=2021.8.3 (from nltk)
+  Downloading regex-2025.9.18-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (40 kB)
+Collecting tqdm (from nltk)
+  Downloading tqdm-4.67.1-py3-none-any.whl.metadata (57 kB)
+Collecting spacy-legacy&lt;3.1.0,&gt;=3.0.11 (from spacy)
+  Downloading spacy_legacy-3.0.12-py2.py3-none-any.whl.metadata (2.8 kB)
+Collecting spacy-loggers&lt;2.0.0,&gt;=1.0.0 (from spacy)
+  Downloading spacy_loggers-1.0.5-py3-none-any.whl.metadata (23 kB)
+Collecting murmurhash&lt;1.1.0,&gt;=0.28.0 (from spacy)
+  Downloading murmurhash-1.0.13-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (2.2 kB)
+Collecting cymem&lt;2.1.0,&gt;=2.0.2 (from spacy)
+  Downloading cymem-2.0.11-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (8.5 kB)
+Collecting preshed&lt;3.1.0,&gt;=3.0.2 (from spacy)
+  Downloading preshed-3.0.10-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (2.4 kB)
+Collecting thinc&lt;8.4.0,&gt;=8.3.4 (from spacy)
+  Downloading thinc-8.3.6-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (15 kB)
+Collecting wasabi&lt;1.2.0,&gt;=0.9.1 (from spacy)
+  Downloading wasabi-1.1.3-py3-none-any.whl.metadata (28 kB)
+Collecting srsly&lt;3.0.0,&gt;=2.4.3 (from spacy)
+  Downloading srsly-2.5.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (19 kB)
+Collecting catalogue&lt;2.1.0,&gt;=2.0.6 (from spacy)
+  Downloading catalogue-2.0.10-py3-none-any.whl.metadata (14 kB)
+Collecting weasel&lt;0.5.0,&gt;=0.1.0 (from spacy)
+  Downloading weasel-0.4.1-py3-none-any.whl.metadata (4.6 kB)
+Collecting typer&lt;1.0.0,&gt;=0.3.0 (from spacy)
+  Downloading typer-0.19.2-py3-none-any.whl.metadata (16 kB)
+Requirement already satisfied: requests&lt;3.0.0,&gt;=2.13.0 in /home/codespace/.local/lib/python3.12/site-packages (from spacy) (2.32.4)
+Collecting pydantic!=1.8,!=1.8.1,&lt;3.0.0,&gt;=1.7.4 (from spacy)
+  Downloading pydantic-2.11.9-py3-none-any.whl.metadata (68 kB)
+Requirement already satisfied: jinja2 in /home/codespace/.local/lib/python3.12/site-packages (from spacy) (3.1.6)
+Requirement already satisfied: setuptools in /home/codespace/.local/lib/python3.12/site-packages (from spacy) (80.9.0)
+Requirement already satisfied: packaging&gt;=20.0 in /home/codespace/.local/lib/python3.12/site-packages (from spacy) (25.0)
+Collecting langcodes&lt;4.0.0,&gt;=3.2.0 (from spacy)
+  Downloading langcodes-3.5.0-py3-none-any.whl.metadata (29 kB)
+Collecting language-data&gt;=1.2 (from langcodes&lt;4.0.0,&gt;=3.2.0-&gt;spacy)
+  Downloading language_data-1.3.0-py3-none-any.whl.metadata (4.3 kB)
+Collecting annotated-types&gt;=0.6.0 (from pydantic!=1.8,!=1.8.1,&lt;3.0.0,&gt;=1.7.4-&gt;spacy)
+  Downloading annotated_types-0.7.0-py3-none-any.whl.metadata (15 kB)
+Collecting pydantic-core==2.33.2 (from pydantic!=1.8,!=1.8.1,&lt;3.0.0,&gt;=1.7.4-&gt;spacy)
+  Downloading pydantic_core-2.33.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.8 kB)
+Requirement already satisfied: typing-extensions&gt;=4.12.2 in /home/codespace/.local/lib/python3.12/site-packages (from pydantic!=1.8,!=1.8.1,&lt;3.0.0,&gt;=1.7.4-&gt;spacy) (4.14.1)
+Collecting typing-inspection&gt;=0.4.0 (from pydantic!=1.8,!=1.8.1,&lt;3.0.0,&gt;=1.7.4-&gt;spacy)
+  Downloading typing_inspection-0.4.1-py3-none-any.whl.metadata (2.6 kB)
+Requirement already satisfied: charset_normalizer&lt;4,&gt;=2 in /home/codespace/.local/lib/python3.12/site-packages (from requests&lt;3.0.0,&gt;=2.13.0-&gt;spacy) (3.4.2)
+Requirement already satisfied: idna&lt;4,&gt;=2.5 in /home/codespace/.local/lib/python3.12/site-packages (from requests&lt;3.0.0,&gt;=2.13.0-&gt;spacy) (3.10)
+Requirement already satisfied: urllib3&lt;3,&gt;=1.21.1 in /home/codespace/.local/lib/python3.12/site-packages (from requests&lt;3.0.0,&gt;=2.13.0-&gt;spacy) (2.5.0)
+Requirement already satisfied: certifi&gt;=2017.4.17 in /home/codespace/.local/lib/python3.12/site-packages (from requests&lt;3.0.0,&gt;=2.13.0-&gt;spacy) (2025.7.9)
+Collecting blis&lt;1.4.0,&gt;=1.3.0 (from thinc&lt;8.4.0,&gt;=8.3.4-&gt;spacy)
+  Downloading blis-1.3.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (7.4 kB)
+Collecting confection&lt;1.0.0,&gt;=0.0.1 (from thinc&lt;8.4.0,&gt;=8.3.4-&gt;spacy)
+  Downloading confection-0.1.5-py3-none-any.whl.metadata (19 kB)
+Collecting shellingham&gt;=1.3.0 (from typer&lt;1.0.0,&gt;=0.3.0-&gt;spacy)
+  Downloading shellingham-1.5.4-py2.py3-none-any.whl.metadata (3.5 kB)
+Collecting rich&gt;=10.11.0 (from typer&lt;1.0.0,&gt;=0.3.0-&gt;spacy)
+  Downloading rich-14.1.0-py3-none-any.whl.metadata (18 kB)
+Collecting cloudpathlib&lt;1.0.0,&gt;=0.7.0 (from weasel&lt;0.5.0,&gt;=0.1.0-&gt;spacy)
+  Downloading cloudpathlib-0.22.0-py3-none-any.whl.metadata (16 kB)
+Collecting smart-open&lt;8.0.0,&gt;=5.2.1 (from weasel&lt;0.5.0,&gt;=0.1.0-&gt;spacy)
+  Downloading smart_open-7.3.1-py3-none-any.whl.metadata (24 kB)
+Collecting wrapt (from smart-open&lt;8.0.0,&gt;=5.2.1-&gt;weasel&lt;0.5.0,&gt;=0.1.0-&gt;spacy)
+  Downloading wrapt-1.17.3-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (6.4 kB)
+Collecting marisa-trie&gt;=1.1.0 (from language-data&gt;=1.2-&gt;langcodes&lt;4.0.0,&gt;=3.2.0-&gt;spacy)
+  Downloading marisa_trie-1.3.1-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (10 kB)
+Requirement already satisfied: six&gt;=1.5 in /home/codespace/.local/lib/python3.12/site-packages (from python-dateutil&gt;=2.8.2-&gt;pandas) (1.17.0)
+Requirement already satisfied: markdown-it-py&gt;=2.2.0 in /usr/local/python/3.12.1/lib/python3.12/site-packages (from rich&gt;=10.11.0-&gt;typer&lt;1.0.0,&gt;=0.3.0-&gt;spacy) (3.0.0)
+Requirement already satisfied: pygments&lt;3.0.0,&gt;=2.13.0 in /home/codespace/.local/lib/python3.12/site-packages (from rich&gt;=10.11.0-&gt;typer&lt;1.0.0,&gt;=0.3.0-&gt;spacy) (2.19.2)
+Requirement already satisfied: mdurl~=0.1 in /usr/local/python/3.12.1/lib/python3.12/site-packages (from markdown-it-py&gt;=2.2.0-&gt;rich&gt;=10.11.0-&gt;typer&lt;1.0.0,&gt;=0.3.0-&gt;spacy) (0.1.2)
+Requirement already satisfied: MarkupSafe&gt;=2.0 in /home/codespace/.local/lib/python3.12/site-packages (from jinja2-&gt;spacy) (3.0.2)
+Downloading nltk-3.9.1-py3-none-any.whl (1.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ <span class=" -Color -Color-Green">1.5/1.5 MB</span> <span class=" -Color -Color-Red">23.8 MB/s</span> eta <span class=" -Color -Color-Cyan">0:00:00</span>
+?25hDownloading spacy-3.8.7-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (33.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ <span class=" -Color -Color-Green">33.9/33.9 MB</span> <span class=" -Color -Color-Red">50.4 MB/s</span> eta <span class=" -Color -Color-Cyan">0:00:00</span>:00:01
+?25hDownloading catalogue-2.0.10-py3-none-any.whl (17 kB)
+Downloading cymem-2.0.11-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (227 kB)
+Downloading langcodes-3.5.0-py3-none-any.whl (182 kB)
+Downloading murmurhash-1.0.13-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (128 kB)
+Downloading preshed-3.0.10-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (869 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ <span class=" -Color -Color-Green">869.3/869.3 kB</span> <span class=" -Color -Color-Red">32.7 MB/s</span> eta <span class=" -Color -Color-Cyan">0:00:00</span>
+?25hDownloading pydantic-2.11.9-py3-none-any.whl (444 kB)
+Downloading pydantic_core-2.33.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ <span class=" -Color -Color-Green">2.0/2.0 MB</span> <span class=" -Color -Color-Red">44.7 MB/s</span> eta <span class=" -Color -Color-Cyan">0:00:00</span>
+?25hDownloading spacy_legacy-3.0.12-py2.py3-none-any.whl (29 kB)
+Downloading spacy_loggers-1.0.5-py3-none-any.whl (22 kB)
+Downloading srsly-2.5.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ <span class=" -Color -Color-Green">1.1/1.1 MB</span> <span class=" -Color -Color-Red">35.7 MB/s</span> eta <span class=" -Color -Color-Cyan">0:00:00</span>
+?25hDownloading thinc-8.3.6-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ <span class=" -Color -Color-Green">4.3/4.3 MB</span> <span class=" -Color -Color-Red">51.0 MB/s</span> eta <span class=" -Color -Color-Cyan">0:00:00</span>
+?25hDownloading blis-1.3.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (11.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ <span class=" -Color -Color-Green">11.6/11.6 MB</span> <span class=" -Color -Color-Red">44.2 MB/s</span> eta <span class=" -Color -Color-Cyan">0:00:00</span>:00:01
+?25hDownloading confection-0.1.5-py3-none-any.whl (35 kB)
+Downloading tqdm-4.67.1-py3-none-any.whl (78 kB)
+Downloading typer-0.19.2-py3-none-any.whl (46 kB)
+Downloading wasabi-1.1.3-py3-none-any.whl (27 kB)
+Downloading weasel-0.4.1-py3-none-any.whl (50 kB)
+Downloading cloudpathlib-0.22.0-py3-none-any.whl (61 kB)
+Downloading smart_open-7.3.1-py3-none-any.whl (61 kB)
 Downloading Sastrawi-1.0.1-py2.py3-none-any.whl (209 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ <span class=" -Color -Color-Green">209.7/209.7 kB</span> <span class=" -Color -Color-Red">5.0 MB/s</span> eta <span class=" -Color -Color-Cyan">0:00:00</span>
-?25hDownloading pyspellchecker-0.8.3-py3-none-any.whl (7.2 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ <span class=" -Color -Color-Green">7.2/7.2 MB</span> <span class=" -Color -Color-Red">98.1 MB/s</span> eta <span class=" -Color -Color-Cyan">0:00:00</span>
-?25hInstalling collected packages: Sastrawi, pyspellchecker
-Successfully installed Sastrawi-1.0.1 pyspellchecker-0.8.3
+Downloading pyspellchecker-0.8.3-py3-none-any.whl (7.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ <span class=" -Color -Color-Green">7.2/7.2 MB</span> <span class=" -Color -Color-Red">51.6 MB/s</span> eta <span class=" -Color -Color-Cyan">0:00:00</span>
+?25hDownloading annotated_types-0.7.0-py3-none-any.whl (13 kB)
+Downloading language_data-1.3.0-py3-none-any.whl (5.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ <span class=" -Color -Color-Green">5.4/5.4 MB</span> <span class=" -Color -Color-Red">47.6 MB/s</span> eta <span class=" -Color -Color-Cyan">0:00:00</span>
+?25hDownloading marisa_trie-1.3.1-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (1.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ <span class=" -Color -Color-Green">1.3/1.3 MB</span> <span class=" -Color -Color-Red">53.3 MB/s</span> eta <span class=" -Color -Color-Cyan">0:00:00</span>
+?25hDownloading regex-2025.9.18-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (802 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ <span class=" -Color -Color-Green">802.0/802.0 kB</span> <span class=" -Color -Color-Red">32.1 MB/s</span> eta <span class=" -Color -Color-Cyan">0:00:00</span>
+?25hDownloading rich-14.1.0-py3-none-any.whl (243 kB)
+Downloading shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+Downloading typing_inspection-0.4.1-py3-none-any.whl (14 kB)
+Downloading wrapt-1.17.3-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (88 kB)
+Installing collected packages: Sastrawi, cymem, wrapt, wasabi, typing-inspection, tqdm, spacy-loggers, spacy-legacy, shellingham, regex, pyspellchecker, pydantic-core, murmurhash, marisa-trie, cloudpathlib, catalogue, blis, annotated-types, srsly, smart-open, rich, pydantic, preshed, nltk, language-data, typer, langcodes, confection, weasel, thinc, spacy
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ <span class=" -Color -Color-Green">31/31</span> [spacy]m30/31 [spacy]tion]ta]
+Successfully installed Sastrawi-1.0.1 annotated-types-0.7.0 blis-1.3.0 catalogue-2.0.10 cloudpathlib-0.22.0 confection-0.1.5 cymem-2.0.11 langcodes-3.5.0 language-data-1.3.0 marisa-trie-1.3.1 murmurhash-1.0.13 nltk-3.9.1 preshed-3.0.10 pydantic-2.11.9 pydantic-core-2.33.2 pyspellchecker-0.8.3 regex-2025.9.18 rich-14.1.0 shellingham-1.5.4 smart-open-7.3.1 spacy-3.8.7 spacy-legacy-3.0.12 spacy-loggers-1.0.5 srsly-2.5.1 thinc-8.3.6 tqdm-4.67.1 typer-0.19.2 typing-inspection-0.4.1 wasabi-1.1.3 weasel-0.4.1 wrapt-1.17.3
+
+<span class=" -Color -Color-Bold">[</span><span class=" -Color -Color-Blue">notice</span><span class=" -Color -Color-Bold">]</span> A new release of pip is available: <span class=" -Color -Color-Red">25.1.1</span> -&gt; <span class=" -Color -Color-Green">25.2</span>
+<span class=" -Color -Color-Bold">[</span><span class=" -Color -Color-Blue">notice</span><span class=" -Color -Color-Bold">]</span> To update, run: <span class=" -Color -Color-Green">python3 -m pip install --upgrade pip</span>
 Collecting en-core-web-sm==3.8.0
   Downloading https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl (12.8 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ <span class=" -Color -Color-Green">12.8/12.8 MB</span> <span class=" -Color -Color-Red">92.2 MB/s</span> eta <span class=" -Color -Color-Cyan">0:00:00</span>
-?25h<span class=" -Color -Color-C2">✔ Download and installation successful</span>
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ <span class=" -Color -Color-Green">12.8/12.8 MB</span> <span class=" -Color -Color-Red">33.1 MB/s</span> eta <span class=" -Color -Color-Cyan">0:00:00</span>00:01
+?25hInstalling collected packages: en-core-web-sm
+Successfully installed en-core-web-sm-3.8.0
+
+<span class=" -Color -Color-Bold">[</span><span class=" -Color -Color-Blue">notice</span><span class=" -Color -Color-Bold">]</span> A new release of pip is available: <span class=" -Color -Color-Red">25.1.1</span> -&gt; <span class=" -Color -Color-Green">25.2</span>
+<span class=" -Color -Color-Bold">[</span><span class=" -Color -Color-Blue">notice</span><span class=" -Color -Color-Bold">]</span> To update, run: <span class=" -Color -Color-Green">python -m pip install --upgrade pip</span>
+<span class=" -Color -Color-C2">✔ Download and installation successful</span>
 You can now load the package via spacy.load(&#39;en_core_web_sm&#39;)
-<span class=" -Color -Color-C3">⚠ Restart to reload dependencies</span>
-If you are in a Jupyter or Colab notebook, you may need to restart Python in
-order to load all the package&#39;s dependencies. You can do this by selecting the
-&#39;Restart kernel&#39; or &#39;Restart runtime&#39; option.
 </pre></div>
 </div>
 </div>
@@ -2213,282 +1525,12 @@ order to load all the package&#39;s dependencies. You can do this by selecting t
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[nltk_data] Downloading package stopwords to /root/nltk_data...
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/codespace/nltk_data...
 [nltk_data]   Unzipping corpora/stopwords.zip.
 </pre></div>
 </div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Jumlah data Fakultas Teknik: 2289
-</pre></div>
 </div>
-<div class="output text_html">
-  <div id="df-f0606a2c-458e-41e3-b4fb-c67b7ce35346" class="colab-df-container">
-    <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>prodi</th>
-      <th>abstrak_id_clean</th>
-      <th>abstrak_en_clean</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>Teknik Industri</td>
-      <td>[portofolio, kumpul, saham, milik, investor, s...</td>
-      <td>[portfolio, collection, stock, own, investor, ...</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>Teknik Industri</td>
-      <td>[pt, abc, usaha, gerak, bidang, manufaktur, ka...</td>
-      <td>[pt, arc, company, engage, manufacture, wood, ...</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>Teknik Industri</td>
-      <td>[bangkal, salah, kabupaten, milik, potensi, al...</td>
-      <td>[bangkalan, one, district, potential, natural,...</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>Teknik Industri</td>
-      <td>[simulasi, duplikasi, abstraksi, hidup, nyata,...</td>
-      <td>[simulation, duplication, abstraction, real, l...</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>Teknik Industri</td>
-      <td>[puas, tingkat, asa, layan, banding, kerja, ha...</td>
-      <td>[satisfaction, feel, level, someone, service, ...</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-    <div class="colab-df-buttons">
-
-  <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-f0606a2c-458e-41e3-b4fb-c67b7ce35346')"
-            title="Convert this dataframe to an interactive table."
-            style="display:none;">
-
-  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
-    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
-  </svg>
-    </button>
-
-  <style>
-    .colab-df-container {
-      display:flex;
-      gap: 12px;
-    }
-
-    .colab-df-convert {
-      background-color: #E8F0FE;
-      border: none;
-      border-radius: 50%;
-      cursor: pointer;
-      display: none;
-      fill: #1967D2;
-      height: 32px;
-      padding: 0 0 0 0;
-      width: 32px;
-    }
-
-    .colab-df-convert:hover {
-      background-color: #E2EBFA;
-      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
-      fill: #174EA6;
-    }
-
-    .colab-df-buttons div {
-      margin-bottom: 4px;
-    }
-
-    [theme=dark] .colab-df-convert {
-      background-color: #3B4455;
-      fill: #D2E3FC;
-    }
-
-    [theme=dark] .colab-df-convert:hover {
-      background-color: #434B5C;
-      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
-      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
-      fill: #FFFFFF;
-    }
-  </style>
-
-    <script>
-      const buttonEl =
-        document.querySelector('#df-f0606a2c-458e-41e3-b4fb-c67b7ce35346 button.colab-df-convert');
-      buttonEl.style.display =
-        google.colab.kernel.accessAllowed ? 'block' : 'none';
-
-      async function convertToInteractive(key) {
-        const element = document.querySelector('#df-f0606a2c-458e-41e3-b4fb-c67b7ce35346');
-        const dataTable =
-          await google.colab.kernel.invokeFunction('convertToInteractive',
-                                                    [key], {});
-        if (!dataTable) return;
-
-        const docLinkHtml = 'Like what you see? Visit the ' +
-          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
-          + ' to learn more about interactive tables.';
-        element.innerHTML = '';
-        dataTable['output_type'] = 'display_data';
-        await google.colab.output.renderOutput(dataTable, element);
-        const docLink = document.createElement('div');
-        docLink.innerHTML = docLinkHtml;
-        element.appendChild(docLink);
-      }
-    </script>
-  </div>
-
-
-    <div id="df-6cfb0025-1bdd-48c5-8d30-9ae1c8aea389">
-      <button class="colab-df-quickchart" onclick="quickchart('df-6cfb0025-1bdd-48c5-8d30-9ae1c8aea389')"
-                title="Suggest charts"
-                style="display:none;">
-
-<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
-     width="24px">
-    <g>
-        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
-    </g>
-</svg>
-      </button>
-
-<style>
-  .colab-df-quickchart {
-      --bg-color: #E8F0FE;
-      --fill-color: #1967D2;
-      --hover-bg-color: #E2EBFA;
-      --hover-fill-color: #174EA6;
-      --disabled-fill-color: #AAA;
-      --disabled-bg-color: #DDD;
-  }
-
-  [theme=dark] .colab-df-quickchart {
-      --bg-color: #3B4455;
-      --fill-color: #D2E3FC;
-      --hover-bg-color: #434B5C;
-      --hover-fill-color: #FFFFFF;
-      --disabled-bg-color: #3B4455;
-      --disabled-fill-color: #666;
-  }
-
-  .colab-df-quickchart {
-    background-color: var(--bg-color);
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-    display: none;
-    fill: var(--fill-color);
-    height: 32px;
-    padding: 0;
-    width: 32px;
-  }
-
-  .colab-df-quickchart:hover {
-    background-color: var(--hover-bg-color);
-    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
-    fill: var(--button-hover-fill-color);
-  }
-
-  .colab-df-quickchart-complete:disabled,
-  .colab-df-quickchart-complete:disabled:hover {
-    background-color: var(--disabled-bg-color);
-    fill: var(--disabled-fill-color);
-    box-shadow: none;
-  }
-
-  .colab-df-spinner {
-    border: 2px solid var(--fill-color);
-    border-color: transparent;
-    border-bottom-color: var(--fill-color);
-    animation:
-      spin 1s steps(1) infinite;
-  }
-
-  @keyframes spin {
-    0% {
-      border-color: transparent;
-      border-bottom-color: var(--fill-color);
-      border-left-color: var(--fill-color);
-    }
-    20% {
-      border-color: transparent;
-      border-left-color: var(--fill-color);
-      border-top-color: var(--fill-color);
-    }
-    30% {
-      border-color: transparent;
-      border-left-color: var(--fill-color);
-      border-top-color: var(--fill-color);
-      border-right-color: var(--fill-color);
-    }
-    40% {
-      border-color: transparent;
-      border-right-color: var(--fill-color);
-      border-top-color: var(--fill-color);
-    }
-    60% {
-      border-color: transparent;
-      border-right-color: var(--fill-color);
-    }
-    80% {
-      border-color: transparent;
-      border-right-color: var(--fill-color);
-      border-bottom-color: var(--fill-color);
-    }
-    90% {
-      border-color: transparent;
-      border-bottom-color: var(--fill-color);
-    }
-  }
-</style>
-
-      <script>
-        async function quickchart(key) {
-          const quickchartButtonEl =
-            document.querySelector('#' + key + ' button');
-          quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
-          quickchartButtonEl.classList.add('colab-df-spinner');
-          try {
-            const charts = await google.colab.kernel.invokeFunction(
-                'suggestCharts', [key], {});
-          } catch (error) {
-            console.error('Error during call to suggestCharts:', error);
-          }
-          quickchartButtonEl.classList.remove('colab-df-spinner');
-          quickchartButtonEl.classList.add('colab-df-quickchart-complete');
-        }
-        (() => {
-          let quickchartButtonEl =
-            document.querySelector('#df-6cfb0025-1bdd-48c5-8d30-9ae1c8aea389 button');
-          quickchartButtonEl.style.display =
-            google.colab.kernel.accessAllowed ? 'block' : 'none';
-        })();
-      </script>
-    </div>
-
-    </div>
-  </div>
-</div></div>
 </div>
 </section>
 <section id="pre-pocessing-berita">
@@ -2843,15 +1885,6 @@ order to load all the package&#39;s dependencies. You can do this by selecting t
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
-    <a class="left-prev"
-       href="CrawlingPPW.html"
-       title="previous page">
-      <i class="fa-solid fa-angle-left"></i>
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Crawling PTA &amp; Berita</p>
-      </div>
-    </a>
 </div>
                 </footer>
               
