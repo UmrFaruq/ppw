@@ -60,6 +60,7 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'TF_IDF';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Crawling PTA dan Berita &amp; Preprocessing" href="CrawPTAFT.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -122,8 +123,6 @@
       
       
       
-        
-      
       <div class="bd-sidebar-primary bd-sidebar">
         
 
@@ -179,10 +178,11 @@
                 </a>
             </li>
         </ul>
-        <ul class="nav bd-sidenav">
+        <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="pengantar.html">Pengantar</a></li>
 <li class="toctree-l1"><a class="reference internal" href="crawling.html">Crawling</a></li>
 <li class="toctree-l1"><a class="reference internal" href="CrawPTAFT.html">Crawling PTA dan Berita &amp; Preprocessing</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">TF-IDF &amp; Word Embedding</a></li>
 </ul>
 
     </div>
@@ -1050,11 +1050,11 @@ Requirement already satisfied: wrapt in /usr/local/python/3.12.1/lib/python3.12/
 </div>
 <div class="cell_output docutils container">
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Vektor untuk kata &#39;indonesia&#39;:
-[-0.17102382  0.24867474 -0.26508215 -0.25914106  0.39450237 -0.07107517
-  0.18297303 -0.31824335 -0.44634163 -0.24952416]
+[-0.10422387  0.34841442 -0.45823345 -0.262488    0.46511513 -0.0747904
+  0.01200596 -0.37158847 -0.31855243 -0.3329609 ]
 
 Kata yang mirip dengan &#39;indonesia&#39;:
-[(&#39;bola&#39;, 0.7685659527778625), (&#39;garuda&#39;, 0.7558267712593079), (&#39;india&#39;, 0.7455193996429443), (&#39;sepak&#39;, 0.7398629784584045), (&#39;bbri&#39;, 0.7360813021659851)]
+[(&#39;timnas&#39;, 0.7735430002212524), (&#39;garuda&#39;, 0.7711290717124939), (&#39;sepak&#39;, 0.7543940544128418), (&#39;all&#39;, 0.7466607689857483), (&#39;rakyat&#39;, 0.7445019483566284)]
 </pre></div>
 </div>
 </div>
@@ -1189,8 +1189,8 @@ Akurasi: 0.8357142857142857
 
       ekonomi       0.86      0.90      0.88        21
       hiburan       0.89      0.85      0.87        20
-        hukum       0.80      0.73      0.76        22
-internasional       0.74      1.00      0.85        14
+        hukum       0.76      0.73      0.74        22
+internasional       0.78      1.00      0.88        14
      olahraga       1.00      0.85      0.92        20
      otomotif       0.85      0.94      0.89        18
       politik       0.74      0.68      0.71        25
@@ -1255,6 +1255,15 @@ Word2Vec + LogisticReg      : 0.8357
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="CrawPTAFT.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Crawling PTA dan Berita &amp; Preprocessing</p>
+      </div>
+    </a>
 </div>
                 </footer>
               
