@@ -33,6 +33,6 @@ Here is a preview of the cell contents:
 -------------------
 ['import networkx as nx', 'import matplotlib.pyplot as plt', 'from community import community_louvain', 'import numpy as np', 'import random']
 ...
-[')', '', 'plt.title("Deteksi Komunitas Facebook (Louvain) – Visualisasi Cepat", fontsize=15)', "plt.axis('off')", 'plt.show()']
+[')', '', 'plt.title("Deteksi Komunitas Facebook (Algoritma Louvain)\\nGraph Kompleks & Tidak Sederhana", fontsize=15)', "plt.axis('off')", 'plt.show()']
 -------------------
 
